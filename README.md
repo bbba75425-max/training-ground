@@ -23,12 +23,15 @@ scope: 影响范围（可选）
 subject: 简短描述（<50字符）
 ```
 
-### 示例
-```
-feat(shell): add backup script with timestamp
-fix(ssh): correct known_hosts permission
-docs: add git branching strategy guide
-```
+### 速查表
+
+| 改了什么 | 消息格式 | 例子 |
+|----------|---------|------|
+| 加新功能 | `feat(模块): xxx` | `feat(devutils): add timer` |
+| 修bug | `fix(模块): xxx` | `fix(backup): handle missing file` |
+| 改文档 | `docs: xxx` | `docs: update README` |
+| 重构代码 | `refactor(模块): xxx` | `refactor(cleanup): simplify loop` |
+| 杂活配置 | `chore: xxx` | `chore: update .gitignore` |
 
 ## 分支策略
 
